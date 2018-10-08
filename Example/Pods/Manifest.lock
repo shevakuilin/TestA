@@ -1,0 +1,16 @@
+PODS:
+  - TestA (0.1.0)
+
+DEPENDENCIES:
+  - TestA (from `../`)
+
+EXTERNAL SOURCES:
+  TestA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestA: 95c1f5c02cfe927d01f82df0aa76119eea1fc937
+
+PODFILE CHECKSUM: 4eefe50e3c20cd01ea8885c568bc97a8176b33e0
+
+COCOAPODS: 1.6.0.beta.1
