@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4BE935EC3590849ADC57156B /* TestA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestA.podspec; path = ../TestA.podspec; sourceTree = "<group>"; };
+		4BE935EC3590849ADC57156B /* TestA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestA.podspec; path = ../TestA.podspec; sourceTree = "<group>"; };
 		5826F35D00CA9F89BB5CC0AB /* Pods-TestA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestA_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestA_Tests/Pods-TestA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		8CB1D14EA75463C02FBAEF5F /* Pods_TestA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A749B113985F00C7E443BEB /* Pods-TestA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestA_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestA_Tests/Pods-TestA_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D4673B87782FEF0068BA57BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EF6F235A7BC62FAAC2A04263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D4673B87782FEF0068BA57BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EF6F235A7BC62FAAC2A04263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				5826F35D00CA9F89BB5CC0AB /* Pods-TestA_Tests.debug.xcconfig */,
 				9A749B113985F00C7E443BEB /* Pods-TestA_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -190,15 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TestA_Tests-checkManifestLockResult.txt",
 			);
@@ -212,15 +207,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestA_Tests/Pods-TestA_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TestA/TestA.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestA.framework",
 			);
